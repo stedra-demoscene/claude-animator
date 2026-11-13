@@ -1,0 +1,14 @@
+{
+  "name": "stedra-animatic",
+  "owner": {
+    "name": "Stefan Dragnev"
+  },
+  "plugins": [
+    {
+      "name": "stedra-animatic",
+      "source": "./plugins/stedra-animatic",
+      "description": "Narrated, scored, animated explainer films: a complete animatic from the first prompt, then directed iteration."
+    }
+  ],
+  "description": "Stefan Dragnev's plugins: stedra-animatic, narrated and scored animated films with Claude."
+}

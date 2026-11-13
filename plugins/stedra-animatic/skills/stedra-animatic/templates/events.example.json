@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "fps": 60,
+  "total": 24.5,
+  "lines": {
+    "s1_l1": { "start": 1.0,  "end": 5.2,  "take": "s1_l1_02", "scene": "s1" },
+    "s1_l2": { "start": 5.8,  "end": 9.4,  "take": "s1_l2_01", "scene": "s1" },
+    "s2_l1": { "start": 10.4, "end": 14.9, "take": "s2_l1_03", "scene": "s2" }
+  },
+  "words": {
+    "s2_l1": [
+      { "w": "Invoices", "start": 10.4,  "end": 10.95 },
+      { "w": "go",       "start": 10.95, "end": 11.12 },
+      { "w": "out",      "start": 11.12, "end": 11.4 },
+      { "w": "in",       "start": 11.55, "end": 11.68 },
+      { "w": "three",    "start": 11.68, "end": 12.0 },
+      { "w": "clicks",   "start": 12.0,  "end": 12.6 }
+    ]
+  },
+  "footage": {
+    "send_flow": { "clip": "send_flow.mp4", "start": 15.5, "clipOffset": 0.0, "button": 19.2, "end": 22.0 }
+  },
+  "events": {
+    "sheet_scroll_end": 8.7,
+    "clicks_word": 12.0,
+    "button_appears": 19.2,
+    "film_end_hold": 24.5
+  },
+  "sections": {
+    "s1": { "start": 0.0,  "end": 10.0 },
+    "s2": { "start": 10.0, "end": 24.5 }
+  }
+}
